@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+	
+	int codigo1, pecas1, codigo2, pecas2;
+	double valor1, valor2;
+	scanf("%d %d %lf",&codigo1,&pecas1,&valor1);
+	scanf("%d %d %lf",&codigo2,&pecas2,&valor2);
+	
+	valor1=valor1*pecas1;
+	valor2=valor2*pecas2;
+	
+	printf("VALOR A PAGAR: R$ %.2lf\n", valor1+valor2);
+		 
+    return 0;
+}
